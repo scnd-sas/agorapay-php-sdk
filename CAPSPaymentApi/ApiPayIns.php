@@ -3,9 +3,9 @@
 namespace CAPSPaymentApi;
 
 /**
- * Class to management CAPSPaymentApi for ApiPayins
+ * Class to management CAPSPaymentApi for ApiPayIns
  */
-class ApiPayins extends Librairies\ApiBase
+class ApiPayIns extends Librairies\ApiBase
 {
     public $_root;
 
