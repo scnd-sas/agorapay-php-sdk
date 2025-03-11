@@ -42,8 +42,8 @@ class PaymentMethodPayinsOptions
      * Constructor
      * @param string $orderReference (required)
      * @param string $orderCountryCode (required)
-     * @param string $amount (required)
-     * @param string $payer (required)
+     * @param object $amount (required) //abe++
+     * @param object $payer (required)
      * @param object $metaData
      */
     public function __construct(
