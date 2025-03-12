@@ -97,7 +97,7 @@ class UpdateAccountHolderOptions
      * @param object $commercialAddress
      * @param string $turnover
      * @param string $regulatedSociety
-     * @param object $physicalPersons
+     * @param array $physicalPersons
      * @param string $currency
      * @param object $owner
      */
@@ -111,7 +111,7 @@ class UpdateAccountHolderOptions
         $commercialAddress = "",
         $turnover = "",
         $regulatedSociety = "",
-        $physicalPersons = "",
+        $physicalPersons = [],
         $currency = "",
         $owner = ""
     ) {
